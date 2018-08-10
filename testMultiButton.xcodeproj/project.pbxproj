@@ -14,6 +14,7 @@
 		B4A9CF1F211D16A6004E5CC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4A9CF1D211D16A6004E5CC5 /* LaunchScreen.storyboard */; };
 		B4A9CF2A211D16A6004E5CC5 /* testMultiButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A9CF29211D16A6004E5CC5 /* testMultiButtonTests.swift */; };
 		B4A9CF35211D16A6004E5CC5 /* testMultiButtonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A9CF34211D16A6004E5CC5 /* testMultiButtonUITests.swift */; };
+		B4A9CF43211D18AE004E5CC5 /* ChapterButtonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A9CF42211D18AE004E5CC5 /* ChapterButtonCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B4A9CF30211D16A6004E5CC5 /* testMultiButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testMultiButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4A9CF34211D16A6004E5CC5 /* testMultiButtonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testMultiButtonUITests.swift; sourceTree = "<group>"; };
 		B4A9CF36211D16A6004E5CC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4A9CF42211D18AE004E5CC5 /* ChapterButtonCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterButtonCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		B4A9CF08211D16A6004E5CC5 = {
 			isa = PBXGroup;
 			children = (
+				B4A9CF42211D18AE004E5CC5 /* ChapterButtonCollectionViewCell.swift */,
 				B4A9CF13211D16A6004E5CC5 /* testMultiButton */,
 				B4A9CF28211D16A6004E5CC5 /* testMultiButtonTests */,
 				B4A9CF33211D16A6004E5CC5 /* testMultiButtonUITests */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4A9CF17211D16A6004E5CC5 /* ViewController.swift in Sources */,
+				B4A9CF43211D18AE004E5CC5 /* ChapterButtonCollectionViewCell.swift in Sources */,
 				B4A9CF15211D16A6004E5CC5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
